@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 3rem;
+}
+
+
+.tamLogo {
+    width: 12rem;
+}
+
+.fuentesNav {
+    font-size: 3rem;
+    padding-left: 2rem;
+}
+
+
+.menuHamburguesa {
+    height: 5rem;
+    width: 5rem;
+}
+
+.header {
+    background: #ee9ca7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #ffdde1, #F4B3AF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #ffdde1, #F4B3AF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
