@@ -33,3 +33,123 @@ body {
     background: -webkit-linear-gradient(to left, #ffdde1, #F4B3AF);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to left, #ffdde1, #F4B3AF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+
+.textoIndex {
+    font-size: 1.5rem;
+}
+
+
+
+
+.footer {
+    font-size: 2rem;
+    background: #1f4037;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #99f2c8, #1f4037);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #99f2c8, #1f4037); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+
+
+.contenedor {
+    text-align: center;
+    margin: 50px;
+    padding: 30px;
+    border: solid 2px #8B9D83;
+    border-radius: 4px;
+    font-size: 1.5rem;
+    -webkit-box-shadow: 6px 4px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 6px 4px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 6px 4px 5px 0px rgba(0,0,0,0.75);
+}
+
+
+.politica {
+    display:flex;
+}
+
+.politica1 {
+    display: flex;
+}
+
+.nosotros {
+    display: flex;
+    justify-content: center;
+}
+
+.imgCarousel {
+    height: 450px;
+    object-fit: cover;
+}
+
+.contactanosHtml {
+    font-size: 2rem;
+    padding: 20px;
+    display: inline-block;
+    border: #A24936 solid 1px;
+    -webkit-box-shadow: 6px 4px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 6px 4px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 6px 4px 5px 0px rgba(0,0,0,0.75);
+}
+
+.liContacto {
+    list-style-type: none;
+    margin:20px;
+}
+
+.formularioTienda {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    margin:100px;
+    font-size: 1rem;
+    
+}
+
+.campoTienda { 
+    display: inline-block;
+    width: 1000px;
+    padding: 10px;
+    margin: 10px auto;
+    border: black solid 2px;
+    border-radius: 4px;
+}
+
+.boton {
+    color: black;
+    background-color: #D3E4CD;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.boton  {
+    transition: all;
+    font-size: 1.3rem;
+}
+
+.boton:hover {
+    height:50px;
+    width:100px;
+
+
+}
+
+.textoForm {
+    font-size: 4rem;
+}
+
+
+.colorBtn {
+    background-color: #77916e;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.tituloPrincipal {
+    color: #77916e;
+}
